@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3a9152a2-4f1a-4861-94b3-ea87fc057f79" name="Default Changelist" comment="[FIX] 폴더구조">
+      <change beforePath="$PROJECT_DIR$/File/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/File/js/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1sEsIY1fL2xInZenHmk83LwoxgR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Img" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v14.14.0/bin/node" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/.nvm/versions/node/v12.18.4/lib/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/File" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Img" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/html" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Img" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/html" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a9152a2-4f1a-4861-94b3-ea87fc057f79" name="Default Changelist" comment="" />
+      <created>1620449003990</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620449003990</updated>
+      <workItem from="1620449005258" duration="4441000" />
+      <workItem from="1620454856385" duration="300000" />
+      <workItem from="1620476878617" duration="4879000" />
+      <workItem from="1620567888227" duration="14000" />
+      <workItem from="1621141321323" duration="1716000" />
+      <workItem from="1621438168004" duration="567000" />
+      <workItem from="1621487292185" duration="1714000" />
+      <workItem from="1621588731874" duration="6782000" />
+      <workItem from="1621681306984" duration="1697000" />
+      <workItem from="1621683125834" duration="2070000" />
+      <workItem from="1622029473679" duration="1280000" />
+      <workItem from="1624256630464" duration="3598000" />
+      <workItem from="1624428953369" duration="28000" />
+      <workItem from="1624782412913" duration="3729000" />
+      <workItem from="1624786199558" duration="360000" />
+    </task>
+    <task id="LOCAL-00001" summary="intial commit">
+      <created>1620449363114</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620449363114</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[ADD] select">
+      <created>1620477293561</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620477293561</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[ADD] cookie 객체 map 사용">
+      <created>1620480150882</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620480150882</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[FIX] UI 변경">
+      <created>1620481173230</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620481173230</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[FIX] 페이지 제목 변경">
+      <created>1620567862828</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1620567862828</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[FIX] 쿠키 알고리즘 수정">
+      <created>1621684147556</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1621684147556</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[ADD] ppt">
+      <created>1622080691893</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1622080691893</updated>
+    </task>
+    <task id="LOCAL-00008" summary="[ADD] ppt 사진">
+      <created>1622080768474</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1622080768474</updated>
+    </task>
+    <task id="LOCAL-00009" summary="[ADD] ppt 사진">
+      <created>1622080825547</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1622080825547</updated>
+    </task>
+    <task id="LOCAL-00010" summary="[FIX] ppt 사진">
+      <created>1622080873342</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1622080873343</updated>
+    </task>
+    <task id="LOCAL-00011" summary="[FIX] ppt">
+      <created>1622080928109</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1622080928109</updated>
+    </task>
+    <task id="LOCAL-00012" summary="[ADD] introduction.html">
+      <created>1623831565297</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1623831565297</updated>
+    </task>
+    <task id="LOCAL-00013" summary="[ADD] ppt">
+      <created>1623831582661</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1623831582661</updated>
+    </task>
+    <task id="LOCAL-00014" summary="[ADD] css">
+      <created>1623845019936</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1623845019936</updated>
+    </task>
+    <task id="LOCAL-00015" summary="[Complete] main">
+      <created>1623852637391</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1623852637391</updated>
+    </task>
+    <task id="LOCAL-00016" summary="[Complete] introduction.html">
+      <created>1623853247828</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1623853247828</updated>
+    </task>
+    <task id="LOCAL-00017" summary="[FIX] 쿠키 찾기 알고리즘">
+      <created>1624258470622</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1624258470622</updated>
+    </task>
+    <task id="LOCAL-00018" summary="[FIX] 쿠키 찾기 알고리즘(객체 이용)">
+      <created>1624261155242</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1624261155242</updated>
+    </task>
+    <task id="LOCAL-00019" summary="[FIX] 쿠키 value 값 변경">
+      <created>1624783791039</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1624783791039</updated>
+    </task>
+    <task id="LOCAL-00020" summary="[FIX] 쿠키 img">
+      <created>1624783807688</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1624783807688</updated>
+    </task>
+    <task id="LOCAL-00021" summary="[ADD] CookieSelect Algorithm (전중후방 고려)">
+      <created>1624784918936</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1624784918936</updated>
+    </task>
+    <task id="LOCAL-00022" summary="[FIX] 오타수정">
+      <created>1624785724957</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1624785724957</updated>
+    </task>
+    <task id="LOCAL-00023" summary="[FIX] 폴더구조">
+      <created>1624786474279</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1624786474279</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="intial commit" />
+    <MESSAGE value="[ADD] select" />
+    <MESSAGE value="[ADD] cookie 객체 map 사용" />
+    <MESSAGE value="[FIX] UI 변경" />
+    <MESSAGE value="[FIX] 페이지 제목 변경" />
+    <MESSAGE value="[FIX] 쿠키 알고리즘 수정" />
+    <MESSAGE value="[ADD] ppt 사진" />
+    <MESSAGE value="[FIX] ppt 사진" />
+    <MESSAGE value="[FIX] ppt" />
+    <MESSAGE value="[ADD] introduction.html" />
+    <MESSAGE value="[ADD] ppt" />
+    <MESSAGE value="[ADD] css" />
+    <MESSAGE value="[Complete] main" />
+    <MESSAGE value="[Complete] introduction.html" />
+    <MESSAGE value="[FIX] 쿠키 찾기 알고리즘" />
+    <MESSAGE value="[FIX] 쿠키 찾기 알고리즘(객체 이용)" />
+    <MESSAGE value="[FIX] 쿠키 value 값 변경" />
+    <MESSAGE value="[FIX] 쿠키 img" />
+    <MESSAGE value="[ADD] CookieSelect Algorithm (전중후방 고려)" />
+    <MESSAGE value="[FIX] 오타수정" />
+    <MESSAGE value="[FIX] 폴더구조" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FIX] 폴더구조" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="443" y="290" key="#Prettier" timestamp="1620477980723">
+      <screen x="0" y="25" width="1440" height="814" />
+    </state>
+    <state x="443" y="290" key="#Prettier/0.25.1440.814@0.25.1440.814" timestamp="1620477980723" />
+    <state x="451" y="236" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1624785796614">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="451" y="236" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1624785796614" />
+    <state x="451" y="238" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.814@0.25.1440.814" timestamp="1620451772395" />
+    <state x="98" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623850856713">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="98" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1623850856713" />
+    <state x="98" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.814@0.25.1440.814" timestamp="1623829890063" />
+    <state x="229" y="68" key="SettingsEditor" timestamp="1620449149510">
+      <screen x="0" y="25" width="1440" height="814" />
+    </state>
+    <state x="229" y="68" key="SettingsEditor/0.25.1440.814@0.25.1440.814" timestamp="1620449149510" />
+    <state x="320" y="159" key="Vcs.Push.Dialog.v2" timestamp="1624786476216">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="159" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1624786476216" />
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.25.1440.814@0.25.1440.814" timestamp="1623852639313" />
+    <state x="521" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1622080675951">
+      <screen x="0" y="25" width="1440" height="814" />
+    </state>
+    <state x="521" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.814@0.25.1440.814" timestamp="1622080675951" />
+    <state x="542" y="330" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1620449271752">
+      <screen x="0" y="25" width="1440" height="814" />
+    </state>
+    <state x="542" y="330" key="git4idea.remote.GitConfigureRemotesDialog/0.25.1440.814@0.25.1440.814" timestamp="1620449271752" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1623847294405">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1623847294405" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/File/js/selectCookie.js</url>
+          <line>73</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

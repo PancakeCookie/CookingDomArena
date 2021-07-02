@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Javascript image dropdown - basic</title>
+    <link rel="stylesheet" href="File/css/sample.css" />
+    <script src="File/js/jquery/jquery-1.9.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="File/css/dd.css" />
+    <link rel="stylesheet" type="text/css" href="File/css/main.css" />
+    <script src="File/js/msdropdown/jquery.dd.min.js"></script>
+    <script src="File/js/index.js" defer></script>
+    <script src="File/js/selectCookie.js" defer></script>
+    <style>
+      @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+      * {
+        font-family: "Nanum Gothic", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <form
+      action="submitdata.php"
+      method="post"
+      enctype="multipart/form-data"
+      name="frmdata"
+      style="height: 60vh"
+    >
+      <div>
+        <table
+          width="100%"
+          border="0"
+          cellspacing="1"
+          cellpadding="5"
+          class="tblWhite"
+          style="padding: 10px"
+        >
+          <tr align="center">
+            <td style="font-weight: bold; color: #fdc4bd">전방</td>
+            <td style="font-weight: bold; color: #fdc4bd">중앙</td>
+            <td style="font-weight: bold; color: #fdc4bd">후방</td>
+          </tr>
+          <tr align="center">
+            <td>
+              <select
+                name="tech1"
+                class="tech1"
+                id="tech1"
+                style="width: 250px; margin: 10px"
+              ></select>
+            </td>
+            <td>
+              <select
+                name="tech3"
+                class="tech3"
+                id="tech3"
+                style="width: 250px; margin: 10px"
+              ></select>
+            </td>
+            <td>
+              <select
+                name="tech5"
+                class="tech5"
+                id="tech5"
+                style="width: 250px; margin: 10px"
+              ></select>
+            </td>
+          </tr>
+          <tr align="center">
+            <td>
+              <select
+                name="tech2"
+                class="tech2"
+                id="tech2"
+                style="width: 250px; margin: 10px"
+              ></select>
+            </td>
+            <td>
+              <select
+                name="tech4"
+                class="tech4"
+                id="tech4"
+                style="width: 250px; margin: 10px"
+              ></select>
+            </td>
+            <td>
+              <select
+                name="tech6"
+                class="tech6"
+                id="tech6"
+                style="width: 250px; margin: 10px"
+              ></select>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div style="background-color: #fdc4bd; margin-top: 10px">
+        <div style="text-align: left; padding: 10px">
+          <ul>
+            <li>
+              쿠키 배치 조건 : 숨겨진 쿠키 2개, 쿠키X는 1개만, 쿠키 캐릭터 3개
+            </li>
+            <li>쿠키 배치 조건을 지켰는지 확인하세요.</li>
+          </ul>
+        </div>
+        <div style="background-color: #ffeec9; height: 10px"></div>
+        <div style="">
+          <input
+            type="button"
+            id="button1"
+            onclick="button1_click();"
+            value="숨겨진 쿠키 예측"
+          />
+        </div>
+        <div
+          style="
+            background-color: #ffeec9;
+            height: 10px;
+            padding: 10px;
+            text-align: left;
+          "
+        >
+          <ul id="result1"></ul>
+          <ul id="result2"></ul>
+        </div>
+      </div>
+    </form>
+    <script>
+      //var tc;
+      $(document).ready(function (e) {
+        $("#payments").msDropdown({ visibleRows: 4 });
+        $("#tech6").msDropdown().data("dd");
+        $("#tech5").msDropdown().data("dd");
+        $("#tech4").msDropdown().data("dd");
+        $("#tech3").msDropdown().data("dd");
+        $("#tech2").msDropdown().data("dd");
+        $("#tech1").msDropdown().data("dd"); //{animStyle:'none'} /{animStyle:'slideDown'} {animStyle:'show'}
+        //no use
+        try {
+          var pages = $("#pages")
+            .msDropdown({
+              on: {
+                change: function (data, ui) {
+                  var val = data.value;
+                  if (val != "") window.location = val;
+                },
+              },
+            })
+            .data("dd");
+
+          var pagename = document.location.pathname.toString();
+          pagename = pagename.split("/");
+          pages.setIndexByValue(pagename[pagename.length - 1]);
+          $("#ver").html(msBeautify.version.msDropdown);
+        } catch (e) {
+          //console.log(e);
+        }
+
+        $("#ver").html(msBeautify.version.msDropdown);
+      });
+    </script>
+  </body>
+</html>
