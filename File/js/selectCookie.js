@@ -17,8 +17,11 @@ function button1_click() {
   const Nothing = 99999;
   const What = 77777;
   const finalFrontCookie = 400;
+  const firstCenterCookie = 500;
   const finalCenterCookie = 1000;
   const firstBackCookie = 1100;
+  const finalBackCookie = 1700;
+
   //input의 value값을 저장한 list input 만들기
   const input = [
     0,
@@ -28,18 +31,47 @@ function button1_click() {
     Number(tech4Value),
     Number(tech5Value),
     Number(tech6Value),
-    1700,
+    1800,
   ];
 
-  //쿠키 경우의 수 줄이기 (전방 쿠키가 더이상 포함 안되는 경우)
-  if (input[2] === Nothing && input[1] <= finalFrontCookie) {
-    input[1] = finalFrontCookie;
-  } else if (input[4] === Nothing && input[3] <= finalCenterCookie) {
-    input[3] = finalCenterCookie;
-  } else if (input[6] === Nothing && input[5] >= firstBackCookie) {
-    input[5] = firstBackCookie;
+  //배치상 불가능한 경우의 수 줄이기
+
+  //122 배치인 경우
+  if (input[2] === Nothing) {
+    // 1이 전방쿠키 -> 뒤에 전방쿠키 불가능
+    if (input[1] <= finalFrontCookie) {
+      input[2] = finalFrontCookie;
+    }
   }
-  //새로운 배열 선언
+  //212배치
+  else if (input[4] === Nothing) {
+    // 1이 중앙쿠키 -> 앞, 뒤에 중앙쿠키 불가능
+    if (firstCenterCookie <= input[3] && input[3] <= finalCenterCookie) {
+      input[3] = firstCenterCookie;
+      input[4] = finalCenterCookie;
+    }
+    // 1이 전방쿠키 -> 뒤에 2는 후방만
+    else if (input[3] <= finalFrontCookie) {
+      input[4] = finalCenterCookie;
+    }
+    // 1이 후방쿠키 -> 앞에 2는 전방만
+    else if (firstBackCookie <= input[3] && input[3] <= finalBackCookie) {
+      input[4] = input[3];
+      input[3] = firstCenterCookie;
+    }
+    // 1이 물음표 일때
+    else if (input[3] === What) {
+      // 쿠쿠?x?쿠 특수케이스
+      if (input[5] === What) {
+        input[4] = What;
+      }
+      // 그 외
+      else input[4] = firstBackCookie;
+    }
+  }
+  //221배치
+  //else if (input[6] === Nothing) {
+  // }
 
   //숨겨진 쿠키 2개의 위치 찾기
   const questionMark1 = input.indexOf(What);
@@ -69,20 +101,6 @@ function button1_click() {
       b = input[questionMark1 + 3];
     else b = input[questionMark1 + 2];
   } else b = input[questionMark1 + 1];
-
-  let endCookie = false;
-
-  //만약 아래와 같은 2가지 경우라면 나누지 않고 한번에 쿠키 출력
-  if (
-    (input[questionMark1 + 1] === What &&
-      input[questionMark1 + 2] === Nothing) ||
-    (input[questionMark1 + 1] === Nothing && input[questionMark1 + 2] === What)
-  ) {
-    //true 이면 한번에 출력 일단 안하고
-    endCookie = true;
-  }
-
-  //배열로 만들기
 
   let first_cookies = new Array();
 
