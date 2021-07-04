@@ -16,11 +16,11 @@ function button1_click() {
 
   const Nothing = 99999;
   const What = 77777;
-  const finalFrontCookie = 400;
-  const firstCenterCookie = 500;
-  const finalCenterCookie = 1000;
-  const firstBackCookie = 1100;
-  const finalBackCookie = 1700;
+  const finalFrontCookie = 400; // 용감한 쿠키
+  const firstCenterCookie = 500; // 망고맛 쿠키
+  const finalCenterCookie = 1000; // 감초맛 쿠키
+  const firstBackCookie = 1100; // 허브맛 쿠키
+  const finalBackCookie = 1700; // 아몬드맛 쿠키
 
   //input의 value값을 저장한 list input 만들기
   const input = [
@@ -70,8 +70,22 @@ function button1_click() {
     }
   }
   //221배치
-  //else if (input[6] === Nothing) {
-  // }
+  else if (input[6] === Nothing) {
+    // 1이 후방쿠키 -> 앞에는 무조건 전방or중앙
+    if (firstBackCookie <= input[5] && input[5] <= finalBackCookie) {
+      input[5] = firstBackCookie;
+    }
+    // 3번째 쿠키가 중앙 -> 앞에 2는 전방만
+    if (firstCenterCookie <= input[3] && input[3] <= finalCenterCookie) {
+      // 4번째가 ?일때 하나씩 미뤄서 출력
+      if (input[4] === What) {
+        input[6] = input[5];
+        input[5] = input[4];
+        input[4] = input[3];
+      }
+      input[3] = firstCenterCookie;
+    }
+  }
 
   //숨겨진 쿠키 2개의 위치 찾기
   const questionMark1 = input.indexOf(What);
