@@ -37,6 +37,12 @@ const cookies = [
     content: "딸기크레페맛 쿠키",
   },
   {
+    value: 350,
+    dataImage: "File/Img/350.png",
+    name: "hide",
+    content: "마들렌맛 쿠키",
+  },
+  {
     value: 400,
     dataImage: "File/Img/400.png",
     name: "hide",
@@ -79,6 +85,12 @@ const cookies = [
     content: "감초맛 쿠키",
   },
   {
+    value: 1050,
+    dataImage: "File/Img/1050.png",
+    name: "hide",
+    content: "민트초코 쿠키",
+  },
+  {
     value: 1100,
     dataImage: "File/Img/1100.png",
     name: "hide",
@@ -89,6 +101,12 @@ const cookies = [
     dataImage: "File/Img/1200.png",
     name: "hide",
     content: "석류맛 쿠키",
+  },
+  {
+    value: 1250,
+    dataImage: "File/Img/1250.png",
+    name: "hide",
+    content: "스파클링맛 쿠키",
   },
   {
     value: 1300,
@@ -107,6 +125,12 @@ const cookies = [
     dataImage: "File/Img/1500.png",
     name: "hide",
     content: "뱀파이어 쿠키",
+  },
+  {
+    value: 1550,
+    dataImage: "File/Img/1550.png",
+    name: "hide",
+    content: "페스츄리맛 쿠키",
   },
   {
     value: 1600,

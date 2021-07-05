@@ -19,7 +19,7 @@ function button1_click() {
   const finalFrontCookie = 400; // 용감한 쿠키
   const firstCenterCookie = 500; // 망고맛 쿠키
   const finalCenterCookie = 1000; // 감초맛 쿠키
-  const firstBackCookie = 1100; // 허브맛 쿠키
+  const firstBackCookie = 1050; // 민트초코 쿠키
   const finalBackCookie = 1700; // 아몬드맛 쿠키
 
   //input의 value값을 저장한 list input 만들기
