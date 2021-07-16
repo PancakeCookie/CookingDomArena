@@ -79,6 +79,12 @@ const cookies = [
     content: "에스프레소맛 쿠키",
   },
   {
+    value: 950,
+    dataImage: "File/Img/950.png",
+    name: "hide",
+    content: "라일락맛 쿠키",
+  },
+  {
     value: 1000,
     dataImage: "File/Img/1000.png",
     name: "hide",
