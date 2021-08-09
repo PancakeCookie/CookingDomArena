@@ -49,6 +49,12 @@ const cookies = [
     content: "벨벳케이크맛 쿠키",
   },
   {
+    value: 490,
+    dataImage: "File/Img/490.png",
+    name: "hide",
+    content: "샤벳상어맛 쿠키",
+  },
+  {
     value: 500,
     dataImage: "File/Img/500.png",
     name: "hide",

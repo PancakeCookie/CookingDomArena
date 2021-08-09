@@ -17,7 +17,7 @@ function button1_click() {
   const Nothing = 99999;
   const What = 77777;
   const finalFrontCookie = 400; // 용감한 쿠키
-  const firstCenterCookie = 500; // 망고맛 쿠키
+  const firstCenterCookie = 490; // 샤벳상어맛 쿠키
   const finalCenterCookie = 1000; // 감초맛 쿠키
   const firstBackCookie = 1050; // 민트초코 쿠키
   const finalBackCookie = 1700; // 아몬드맛 쿠키
